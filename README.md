@@ -18,9 +18,8 @@ No username nor password, no SSL/TLS
 You can try with [MQTTX from the MacOS App store](https://apps.apple.com/za/app/mqttx/id1514074565)
 
 Here is the configuration of the server:
-
+![MQTT Configuration of Server](assets/MQTT-config.png)
 
 And here is the subscription:
 Notice the topic includes the chipid, which you can find first by using a wildcard (#).
-
-
+![MQTT Subscription](assets/MQTT-subscribe.png)
