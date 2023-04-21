@@ -5,11 +5,13 @@ The ELK server is dated, but it serves it's purpose. There is no immidiate plan 
 However you can read the data from the MQTT server and load them into your visualisation of choice.
 
 ## MQTT access
-- Server: mqtt.24mm2.com
-- Port: 1883
-- Topic (generic): /x/data/sdg/#
-- Topic (specific): /x/data/sdg/nn, where nn is the chipid
-- Format: JSON
+| Parameter | Value | Note|
+| :-- | :--:|:--|
+|Server: |`mqtt.24mm2.com`||
+| Port: |`1883`||
+| Topic (generic): |`/x/data/sdg/#`||
+|Topic (specific):| `/x/data/sdg/nn`|nn is the chipid|
+| Format: |`JSON`||
 
 ### Login and security
 No username nor password, no SSL/TLS
